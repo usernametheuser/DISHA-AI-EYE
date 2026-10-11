@@ -1,0 +1,22 @@
+# Build outputs (tools/build_apk.ps1 recreates them; put the APK on the GitHub Releases page instead)
+build/
+*.apk
+firmware/DISHA-CAM/build/
+android/DishaGlassOS/.gradle/
+android/DishaGlassOS/build/
+android/DishaGlassOS/app/build/
+android/DishaGlassOS/local.properties
+android/DishaGlassOS/.idea/
+*.iml
+
+# Signing keys: never publish them. Keep your own backup outside the repository.
+*.keystore
+*.jks
+
+# Personal settings and editors
+.vscode/
+.claude/
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
